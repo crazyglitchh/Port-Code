@@ -1,0 +1,504 @@
+{
+  "handlers": [
+    {
+      "type": "event",
+      "position": 0,
+      "operations": [
+        {
+          "action": "set_variable_create_list",
+          "values": [
+            {
+              "name": "values",
+              "value": {
+                "type": "array",
+                "values": [
+                  {"type": "text", "text": "&#FF0000Новый год", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF4500Мороз", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Ёлка", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF69B4Подарок", "parsing": "legacy"},
+                  {"type": "text", "text": "&#00CED1Снег", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF4500Огонёк", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF8C00Мандарин", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Олень", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF1493Снеговик", "parsing": "legacy"},
+                  {"type": "text", "text": "&#00BFFFСнежинка", "parsing": "legacy"},
+                  {"type": "text", "text": "&#9370DBЗима", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF6347Салют", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFDAB9Конфета", "parsing": "legacy"},
+                  {"type": "text", "text": "&#B0C4DEСосулька", "parsing": "legacy"},
+                  {"type": "text", "text": "&#F5F5F5Варежка", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF00FFCreative+", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF4500Кодер", "parsing": "legacy"},
+                  {"type": "text", "text": "&#1E90FFАлгоритм", "parsing": "legacy"},
+                  {"type": "text", "text": "&#32CD32Творение", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Мир", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF69B4Сущность", "parsing": "legacy"}
+                ]
+              }
+            },
+            {
+              "name": "variable",
+              "value": {
+                "type": "variable",
+                "variable": "Suffix_list",
+                "scope": "game"
+              }
+            }
+          ]
+        },
+        {
+          "action": "set_variable_append_value",
+          "values": [
+            {
+              "name": "values",
+              "value": {
+                "type": "array",
+                "values": [
+                  {"type": "text", "text": "&#00CED1Переменная", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFA500Баг", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF1493Фича", "parsing": "legacy"},
+                  {"type": "text", "text": "&#7B68EETPS", "parsing": "legacy"},
+                  {"type": "text", "text": "&#8B4513Артефакт", "parsing": "legacy"},
+                  {"type": "text", "text": "&#D2691EРеликвия", "parsing": "legacy"},
+                  {"type": "text", "text": "&#556B2FНюхач", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFB6C1Вишня", "parsing": "legacy"},
+                  {"type": "text", "text": "&#DEB887Мозаика", "parsing": "legacy"},
+                  {"type": "text", "text": "&#CD853FГончар", "parsing": "legacy"},
+                  {"type": "text", "text": "&#8FBC8FБамбук", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF0000❤", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF1493Купидон", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF69B4Сердце", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF4500Страсть", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFB6C1Невеста", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Половинка", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFA07AОбнимашки", "parsing": "legacy"},
+                  {"type": "text", "text": "&#228B22⚘", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF69B4Тюльпан", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Солнце", "parsing": "legacy"}
+                ]
+              }
+            },
+            {
+              "name": "variable",
+              "value": {
+                "type": "variable",
+                "variable": "Suffix_list",
+                "scope": "game"
+              }
+            }
+          ]
+        },
+        {
+          "action": "set_variable_append_value",
+          "values": [
+            {
+              "name": "values",
+              "value": {
+                "type": "array",
+                "values": [
+                  {"type": "text", "text": "&#98FB98Трава", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFB6C1Весна", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFA500Мимоза", "parsing": "legacy"},
+                  {"type": "text", "text": "&#F5DEB3Пыльца", "parsing": "legacy"},
+                  {"type": "text", "text": "&#1E90FFЛето", "parsing": "legacy"},
+                  {"type": "text", "text": "&#00CED1Море", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Сокровище", "parsing": "legacy"},
+                  {"type": "text", "text": "&#8B4513Пират", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFA500Пляж", "parsing": "legacy"},
+                  {"type": "text", "text": "&#20B2AAДельфин", "parsing": "legacy"},
+                  {"type": "text", "text": "&#B8860BБулава", "parsing": "legacy"},
+                  {"type": "text", "text": "&#DAA520Испытание", "parsing": "legacy"},
+                  {"type": "text", "text": "&#708090Туф", "parsing": "legacy"},
+                  {"type": "text", "text": "&#8B008BЗнамение", "parsing": "legacy"},
+                  {"type": "text", "text": "&#CD853FКрафтер", "parsing": "legacy"},
+                  {"type": "text", "text": "&#1E90FFШквал", "parsing": "legacy"},
+                  {"type": "text", "text": "&#A0522DСтержень", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF4500ПВП", "parsing": "legacy"},
+                  {"type": "text", "text": "&#00BFFFОкеан", "parsing": "legacy"},
+                  {"type": "text", "text": "&#32CD32Слайм", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Страж", "parsing": "legacy"}
+                ]
+              }
+            },
+            {
+              "name": "variable",
+              "value": {
+                "type": "variable",
+                "variable": "Suffix_list",
+                "scope": "game"
+              }
+            }
+          ]
+        },
+        {
+          "action": "set_variable_append_value",
+          "values": [
+            {
+              "name": "values",
+              "value": {
+                "type": "array",
+                "values": [
+                  {"type": "text", "text": "&#9370DBАлекс", "parsing": "legacy"},
+                  {"type": "text", "text": "&#F5DEB3Баранина", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF8C00Хэллоуин", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF0000Жнец", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFA500Тыква", "parsing": "legacy"},
+                  {"type": "text", "text": "&#8B008BПризрак", "parsing": "legacy"},
+                  {"type": "text", "text": "&#2F4F4FНежить", "parsing": "legacy"},
+                  {"type": "text", "text": "&#DC143CПроклятие", "parsing": "legacy"},
+                  {"type": "text", "text": "&#D877F2⁷⁷⁷", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Везунчик", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF4500Магия", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Фортуна", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF1493Джокер", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF8C00Лакиварс", "parsing": "legacy"},
+                  {"type": "text", "text": "&#DAA520Талисман", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF69B4Сюрприз", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF0000V²⁵", "parsing": "legacy"},
+                  {"type": "text", "text": "&#8B4513Скрипун", "parsing": "legacy"},
+                  {"type": "text", "text": "&#DAA520Гастлинг", "parsing": "legacy"},
+                  {"type": "text", "text": "&#708090Голем", "parsing": "legacy"},
+                  {"type": "text", "text": "&#2F4F4FСтатуя", "parsing": "legacy"}
+                ]
+              }
+            },
+            {
+              "name": "variable",
+              "value": {
+                "type": "variable",
+                "variable": "Suffix_list",
+                "scope": "game"
+              }
+            }
+          ]
+        },
+        {
+          "action": "set_variable_append_value",
+          "values": [
+            {
+              "name": "values",
+              "value": {
+                "type": "array",
+                "values": [
+                  {"type": "text", "text": "&#00FF7FСветлячок", "parsing": "legacy"},
+                  {"type": "text", "text": "&#CD853FДеннис", "parsing": "legacy"},
+                  {"type": "text", "text": "&#DAA520Копьё", "parsing": "legacy"},
+                  {"type": "text", "text": "&#1E90FFНаутилус", "parsing": "legacy"},
+                  {"type": "text", "text": "&#87CEEBНебеса", "parsing": "legacy"},
+                  {"type": "text", "text": "&#8B4513Всадник", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF45002.0", "parsing": "legacy"},
+                  {"type": "text", "text": "&#00BFFF3D", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF69B4Пони", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF0000VR", "parsing": "legacy"},
+                  {"type": "text", "text": "&#1E90FFUSB", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Янтарь", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF4500Маячок", "parsing": "legacy"},
+                  {"type": "text", "text": "&#DEB887Багет", "parsing": "legacy"},
+                  {"type": "text", "text": "&#1E90FFГаджет", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF6347Слив", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Сыр", "parsing": "legacy"},
+                  {"type": "text", "text": "&#00CED1Бит", "parsing": "legacy"},
+                  {"type": "text", "text": "&#9370DBСкайбокс", "parsing": "legacy"},
+                  {"type": "text", "text": "&#DAA520Пьедестал", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF1493Эндермит", "parsing": "legacy"}
+                ]
+              }
+            },
+            {
+              "name": "variable",
+              "value": {
+                "type": "variable",
+                "variable": "Suffix_list",
+                "scope": "game"
+              }
+            }
+          ]
+        },
+        {
+          "action": "set_variable_append_value",
+          "values": [
+            {
+              "name": "values",
+              "value": {
+                "type": "array",
+                "values": [
+                  {"type": "text", "text": "&#F5DEB3Кролик", "parsing": "legacy"},
+                  {"type": "text", "text": "&#00CED1Наблюдатель", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF4500Дебаг", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF0000Барьер", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF4500Событие", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF6347Действие", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFA500Условие", "parsing": "legacy"},
+                  {"type": "text", "text": "&#1E90FFТекст", "parsing": "legacy"},
+                  {"type": "text", "text": "&#32CD32Число", "parsing": "legacy"},
+                  {"type": "text", "text": "&#9370DBВектор", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF00FFРежим", "parsing": "legacy"},
+                  {"type": "text", "text": "&#00CED1Модуль", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF1493Голос", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Список", "parsing": "legacy"},
+                  {"type": "text", "text": "&#B8860BСловарь", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF0000Ошибка", "parsing": "legacy"},
+                  {"type": "text", "text": "&#32CD32Выживание", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF69B4Пазл", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF4500Аркада", "parsing": "legacy"},
+                  {"type": "text", "text": "&#1E90FFКод", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF1493Краш", "parsing": "legacy"}
+                ]
+              }
+            },
+            {
+              "name": "variable",
+              "value": {
+                "type": "variable",
+                "variable": "Suffix_list",
+                "scope": "game"
+              }
+            }
+          ]
+        },
+        {
+          "action": "set_variable_append_value",
+          "values": [
+            {
+              "name": "values",
+              "value": {
+                "type": "array",
+                "values": [
+                  {"type": "text", "text": "&#B0C4DEКаток", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Звезда", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF8C00Свечка", "parsing": "legacy"},
+                  {"type": "text", "text": "&#00BFFFЛёд", "parsing": "legacy"},
+                  {"type": "text", "text": "&#32CD32Иголки", "parsing": "legacy"},
+                  {"type": "text", "text": "&#9370DBМаска", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF6347Шарф", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFDAB9Стих", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF69B4Мишура", "parsing": "legacy"},
+                  {"type": "text", "text": "&#F5F5F5Сугроб", "parsing": "legacy"},
+                  {"type": "text", "text": "&#00CED1Санки", "parsing": "legacy"},
+                  {"type": "text", "text": "&#7B8D42Оливье", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Сказка", "parsing": "legacy"},
+                  {"type": "text", "text": "&#2F4F4FСкалк", "parsing": "legacy"},
+                  {"type": "text", "text": "&#00CED1Калибровка", "parsing": "legacy"},
+                  {"type": "text", "text": "&#DEB887Черепок", "parsing": "legacy"},
+                  {"type": "text", "text": "&#8B4513Тропы", "parsing": "legacy"},
+                  {"type": "text", "text": "&#708090Руины", "parsing": "legacy"},
+                  {"type": "text", "text": "&#DEB887Плот", "parsing": "legacy"},
+                  {"type": "text", "text": "&#32CD32Роща", "parsing": "legacy"},
+                  {"type": "text", "text": "&#DEB887Полка", "parsing": "legacy"}
+                ]
+              }
+            },
+            {
+              "name": "variable",
+              "value": {
+                "type": "variable",
+                "variable": "Suffix_list",
+                "scope": "game"
+              }
+            }
+          ]
+        },
+        {
+          "action": "set_variable_append_value",
+          "values": [
+            {
+              "name": "values",
+              "value": {
+                "type": "array",
+                "values": [
+                  {"type": "text", "text": "&#FFD700Храм", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF69B4Украшение", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF8C00Пиглин", "parsing": "legacy"},
+                  {"type": "text", "text": "&#CD853FКисть", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF6347Узор", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF4500Факельник", "parsing": "legacy"},
+                  {"type": "text", "text": "&#8FBC8FКувшинница", "parsing": "legacy"},
+                  {"type": "text", "text": "&#DAA520Осколок", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF69B4Лепесток", "parsing": "legacy"},
+                  {"type": "text", "text": "&#CD853FВаза", "parsing": "legacy"},
+                  {"type": "text", "text": "&#DAA520Верблюд", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF69B4SUS", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFB6C1Зайка", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Лучик", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFA500Солнышко", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF69B4Свидание", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF1493Любимка", "parsing": "legacy"},
+                  {"type": "text", "text": "&#1E90FFДруг", "parsing": "legacy"},
+                  {"type": "text", "text": "&#00BFFFСлёзы", "parsing": "legacy"},
+                  {"type": "text", "text": "&#708090Грусть", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF4500Горько", "parsing": "legacy"}
+                ]
+              }
+            },
+            {
+              "name": "variable",
+              "value": {
+                "type": "variable",
+                "variable": "Suffix_list",
+                "scope": "game"
+              }
+            }
+          ]
+        },
+        {
+          "action": "set_variable_append_value",
+          "values": [
+            {
+              "name": "values",
+              "value": {
+                "type": "array",
+                "values": [
+                  {"type": "text", "text": "&#2F4F4FПотеря", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF69B4Цветы", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF4500Пламя", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFB6C1Бабочка", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF1493Поцелуй", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Симпатия", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF69B4Жених", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF4500Ловелас", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF0000Любовь", "parsing": "legacy"},
+                  {"type": "text", "text": "&#1E90FFВерность", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Кольцо", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF1493Роман", "parsing": "legacy"},
+                  {"type": "text", "text": "&#32CD32Лепесток", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Пикник", "parsing": "legacy"},
+                  {"type": "text", "text": "&#00BFFFКапля", "parsing": "legacy"},
+                  {"type": "text", "text": "&#F5DEB3Ромашка", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFB6C1Роса", "parsing": "legacy"},
+                  {"type": "text", "text": "&#00CED1Ручей", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF69B4Лилия", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF1493Роза", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Иволга", "parsing": "legacy"}
+                ]
+              }
+            },
+            {
+              "name": "variable",
+              "value": {
+                "type": "variable",
+                "variable": "Suffix_list",
+                "scope": "game"
+              }
+            }
+          ]
+        },
+        {
+          "action": "set_variable_append_value",
+          "values": [
+            {
+              "name": "values",
+              "value": {
+                "type": "array",
+                "values": [
+                  {"type": "text", "text": "&#2F4F4FГрач", "parsing": "legacy"},
+                  {"type": "text", "text": "&#32CD32Росток", "parsing": "legacy"},
+                  {"type": "text", "text": "&#DEB887Веснушки", "parsing": "legacy"},
+                  {"type": "text", "text": "&#32CD32Зелень", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Кулич", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF69B4Цветение", "parsing": "legacy"},
+                  {"type": "text", "text": "&#32CD32Лес", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Тепло", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF8C00Кот", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF69B4Пасха", "parsing": "legacy"},
+                  {"type": "text", "text": "&#F5DEB3Песок", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF4500Жара", "parsing": "legacy"},
+                  {"type": "text", "text": "&#32CD32Пальма", "parsing": "legacy"},
+                  {"type": "text", "text": "&#2F4F4FГоре", "parsing": "legacy"},
+                  {"type": "text", "text": "&#00CED1Лодка", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Рыбалка", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF4500Путь", "parsing": "legacy"},
+                  {"type": "text", "text": "&#00BFFFВолна", "parsing": "legacy"},
+                  {"type": "text", "text": "&#8B4513Пещера", "parsing": "legacy"},
+                  {"type": "text", "text": "&#32CD32Джунгли", "parsing": "legacy"},
+                  {"type": "text", "text": "&#00CED1Водопад", "parsing": "legacy"}
+                ]
+              }
+            },
+            {
+              "name": "variable",
+              "value": {
+                "type": "variable",
+                "variable": "Suffix_list",
+                "scope": "game"
+              }
+            }
+          ]
+        },
+        {
+          "action": "set_variable_append_value",
+          "values": [
+            {
+              "name": "values",
+              "value": {
+                "type": "array",
+                "values": [
+                  {"type": "text", "text": "&#1E90FFБассейн", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Лимонад", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFA500Торговец", "parsing": "legacy"},
+                  {"type": "text", "text": "&#DEB887Деревня", "parsing": "legacy"},
+                  {"type": "text", "text": "&#2F4F4FНочь", "parsing": "legacy"},
+                  {"type": "text", "text": "&#00CED1Черепаха", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Парусник", "parsing": "legacy"},
+                  {"type": "text", "text": "&#00BFFFВетер", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Компас", "parsing": "legacy"},
+                  {"type": "text", "text": "&#32CD32Скаут", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF4500Каникулы", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFA500Торговец", "parsing": "legacy"},
+                  {"type": "text", "text": "&#F5DEB3Песчаный", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF4500Спавнер", "parsing": "legacy"},
+                  {"type": "text", "text": "&#708090Решётка", "parsing": "legacy"},
+                  {"type": "text", "text": "&#8B4513Ось", "parsing": "legacy"},
+                  {"type": "text", "text": "&#2F4F4FПодземелье", "parsing": "legacy"},
+                  {"type": "text", "text": "&#32CD32Зелье", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Ключ", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFA500Лампа", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF4500Картограф", "parsing": "legacy"}
+                ]
+              }
+            },
+            {
+              "name": "variable",
+              "value": {
+                "type": "variable",
+                "variable": "Suffix_list",
+                "scope": "game"
+              }
+            }
+          ]
+        },
+        {
+          "action": "set_variable_append_value",
+          "values": [
+            {
+              "name": "values",
+              "value": {
+                "type": "array",
+                "values": [
+                  {"type": "text", "text": "&#00CED1Склизкий", "parsing": "legacy"},
+                  {"type": "text", "text": "&#DAA520Точёный", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF0000Заражён", "parsing": "legacy"},
+                  {"type": "text", "text": "&#DAA520Хранилище", "parsing": "legacy"},
+                  {"type": "text", "text": "&#32CD32Болотник", "parsing": "legacy"},
+                  {"type": "text", "text": "&#8B4513Броненосец", "parsing": "legacy"},
+                  {"type": "text", "text": "&#2F4F4FЗловещий", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF4500Медный", "parsing": "legacy"},
+                  {"type": "text", "text": "&#00BFFFПоток", "parsing": "legacy"},
+                  {"type": "text", "text": "&#F5DEB3Диорит", "parsing": "legacy"},
+                  {"type": "text", "text": "&#DEB887Гранит", "parsing": "legacy"},
+                  {"type": "text", "text": "&#DAA520Андезит", "parsing": "legacy"},
+                  {"type": "text", "text": "&#00CED1Призмарин", "parsing": "legacy"},
+                  {"type": "text", "text": "&#1E90FFПодводник", "parsing": "legacy"},
+                  {"type": "text", "text": "&#8B4513Дверь", "parsing": "legacy"},
+                  {"type": "text", "text": "&#DEB887Забор", "parsing": "legacy"},
+                  {"type": "text", "text": "&#CD853FКалитка", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF6347Рагу", "parsing": "legacy"},
+                  {"type": "text", "text": "&#DAA520Стойка", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FFD700Монумент", "parsing": "legacy"},
+                  {"type": "text", "text": "&#FF69B4Щедрость", "parsing": "legacy"}
+                ]
+              }
+            },
+            {
+              "name": "variable",
+              "value": {
+                "
